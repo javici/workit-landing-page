@@ -1,0 +1,69 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+h3 {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+button {
+  border: transparent;
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  line-height: 32px;
+}
+button.primary {
+  background-color: #44ffa1;
+  color: #24053e;
+  height: 61px;
+  text-align: center;
+  width: 190px;
+}
+button.primary:hover {
+  background-color: #24053e;
+  border: 2px solid #44ffa1;
+  color: #44ffa1;
+}
+button.secondary {
+  background-color: transparent;
+  border-bottom: 2px solid #44ffa1;
+  color: #ffffff;
+  height: 35px;
+  padding: 0;
+  white-space: nowrap;
+  width: 140px;
+}
+button.secondary:hover {
+  color: #44ffa1;
+}
+
+/*# sourceMappingURL=style.css.map */
